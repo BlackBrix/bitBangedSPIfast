@@ -3,6 +3,16 @@ fast soft-SPI for Arduino AVR (by [Nick Gammon](https://github.com/nickgammon))
   
 ----  
   
+fast SPI class for Arduino Uno and similar (AVR-based).  
+  
+For details and documentation see:  
+http://www.gammon.com.au/forum/?id=10892  
+  
+In particular:  
+http://www.gammon.com.au/forum/?id=10892&reply=6#reply6  
+  
+----  
+  
 The library below uses direct port manipulations to speed up the bit-banged SPI. It is a bit fiddlier to use, because you need to look up the ports/pins/data-direction registers for the appropriate pins. However, it is faster.  
   
 Download:  
