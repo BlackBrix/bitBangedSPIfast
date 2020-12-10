@@ -52,6 +52,6 @@ void loop (void)
   }  // end of loop
 ````
   
-This takes about 52 uS to transfer one byte.  
+This takes about 52 µS to transfer one byte.  
   
 Both of these are somewhat slower than hardware SPI, but could come in handy where you are using the hardware SPI for other purposes, and just want to draw to an LCD screen, or update some LEDS, where speed is not really of the essence.  
